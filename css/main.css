@@ -1,0 +1,65 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+}
+.hidden {
+	display: none;
+}
+.carousel img {
+	width: 100%;
+	height: auto;
+}
+.parallax {
+	background-attachment: fixed;
+	background-position: 50% 0;
+	position: relative;
+}
+
+header {
+	background-image: url(../img/bg1.png);
+	min-height: 960px;
+	background-width:100%;
+	background-repeat: repeat-x;
+	background-position: repeat-x;
+	position: relative;
+}
+.top {
+	padding-left: 20px;
+	padding-top: 60px;
+	background-position: center left;
+}
+.top strong {
+	color: #FFF;
+	display: block;
+	font-weight: normal;
+	font-size: 48px;
+	font-family: "GilroyExtrabold";
+	line-height:20px;
+}
